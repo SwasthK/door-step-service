@@ -10,9 +10,10 @@ import { Signup } from "./page/Signup";
 import { Ban } from "lucide-react";
 
 function App() {
+
   return (
     <>
-      {import.meta.env.PROJECT_MODE === "DEVELOPMENT" ? (
+      {import.meta.env.VITE_PROJECT_MODE === "DEVELOPMENT" ? (
         <div className="flex justify-center items-center h-screen">
           <div className="flex flex-col items-center gap-4">
             <p className="text-7xl">Maintainance</p>
